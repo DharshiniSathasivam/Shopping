@@ -68,17 +68,3 @@
 .card-text{
     padding-bottom: 50px;
 }
-.footer{
-   display: flex;
-   justify-content: center;
-   position: absolute;
-   bottom: 60px;
-   width: 1340px;
-   height: 150px;
-   background-color: black;
-}
-.contend{
-   color: beige;
-   display: grid;
-   padding: 70px;
-}

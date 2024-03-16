@@ -115,11 +115,6 @@ function App() {
           <p className="lead">With this shop hompeage template</p>
         </div>
       </div>
-      <footer>
-        <div className="footer">
-          <div className="contend">Copyright © Your Website 2023</div>
-        </div>
-      </footer>
       <div className="cart">
         {product?.map((cardDetail, idx) => (
           <><ShoppingCart
@@ -135,7 +130,11 @@ function App() {
     
   );
 }
-
+<footer>
+        <div className="footer">
+          <div className="contend">Copyright © Your Website 2023</div>
+        </div>
+      </footer>
 export default App;
 
 function ShoppingCart({ name, img, rate, inCart, setInCart }) {
