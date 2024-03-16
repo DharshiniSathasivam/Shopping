@@ -126,15 +126,14 @@ function App() {
             setInCart={setInCart} /></>
         ))}
       </div>
+      <div className="footer">
+  <p> Copyright © Your Website 2023</p>
+</div>
     </div>
     
   );
 }
-<footer>
-        <div className="footer">
-          <div className="contend">Copyright © Your Website 2023</div>
-        </div>
-      </footer>
+
 export default App;
 
 function ShoppingCart({ name, img, rate, inCart, setInCart }) {
@@ -165,6 +164,7 @@ function ShoppingCart({ name, img, rate, inCart, setInCart }) {
     
   );
 }
+
 
 
 
